@@ -31,8 +31,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-			
-	    - name: Setup Flutter
+
+      - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
@@ -56,4 +56,3 @@ jobs:
         with:
           name: ios-unsigned
           path: bujuan_music-ios-unsigned.ipa
-
