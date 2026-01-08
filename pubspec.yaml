@@ -40,7 +40,7 @@ dependencies:
   bujuan_music_api:
     git:
       url: https://github.com/2697a/bujuan_music_api.git
-      ref: main
+      ref: master
   path_provider: ^2.1.5
   cached_network_image: ^3.4.1
   hugeicons_pro: ^0.0.2
